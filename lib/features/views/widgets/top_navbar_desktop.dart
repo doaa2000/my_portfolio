@@ -42,7 +42,7 @@ class TopNavBar extends StatelessWidget {
                 MouseRegionWidget(
                   onPressed: () {
                     controller.animateTo(
-                      50,
+                      1600,
                       duration: Duration(seconds: 1),
                       curve: Curves.fastOutSlowIn,
                     );
